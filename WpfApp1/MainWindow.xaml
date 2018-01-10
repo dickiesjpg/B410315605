@@ -1,0 +1,39 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <InkCanvas Name="inkCanvas1">
+
+        </InkCanvas>
+
+
+
+        <Button Content="綠細" HorizontalAlignment="Left" Margin="447,279,0,0" VerticalAlignment="Top" Width="45" Height="30
+                " Click="Button_Click_5"/>
+        <Button Content="紅粗" HorizontalAlignment="Left" Margin="312,279,0,0" VerticalAlignment="Top" Width="45" Height="30
+                " Click="Button_Click_1"/>
+        <Button Content="紅細" HorizontalAlignment="Left" Margin="357,279,0,0" VerticalAlignment="Top" Width="45" Height="30
+                " Click="Button_Click_3"/>
+        <Button Content="綠粗" HorizontalAlignment="Left" Margin="402,279,0,0" VerticalAlignment="Top" Width="45
+                " Height="30
+                " RenderTransformOrigin="1.241,1.073" Click="Button_Click_4"/>
+        <Button Content="橡皮擦" HorizontalAlignment="Left" Margin="178,279,0,0" VerticalAlignment="Top" Width="45" Height="30
+                " Click="Button_Click"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="133,279,0,0" VerticalAlignment="Top" Width="45" Height="30
+                "/>
+        <Button Content="" HorizontalAlignment="Left" Margin="88,279,0,0" VerticalAlignment="Top" Width="45" Height="30
+                "/>
+        <Button Content="" HorizontalAlignment="Left" Margin="43,279,0,0" VerticalAlignment="Top" Width="45" Height="30
+                " Click="Button_Click_2"/>
+        <Button Content="上一頁" HorizontalAlignment="Left" Margin="223,279,0,0" VerticalAlignment="Top" Width="45" Height="30                 "/>
+        <Button Content="下一頁" HorizontalAlignment="Left" Margin="268,279,0,0" VerticalAlignment="Top" Width="45" Height="30                 " AutomationProperties.Name="下一頁" Click="Button_Click_6"/>
+        <WrapPanel x:Name="wapPanell" HorizontalAlignment="Left" Height="310" Margin="10,10,0,0" VerticalAlignment="Top" Width="508"/>
+
+
+    </Grid>
+</Window>
